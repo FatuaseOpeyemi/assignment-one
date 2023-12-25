@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="circle 112 Fatuase Opeyemi"/>
+        <meta name="description" content="our first assignment"/>
+       <meta charset="UTF-8"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>my first assignment</title>
+        <link rel="icon" href="=image/HTML5 Logo.png" />
+        
+    </head>
+     <body>
+        <header>
+            <img
+            src="images//Altschool Logo.jpg"
+            alt="Altschool Logo"
+            width="0"
+            height="0" />
+            <h1>Fatuase Opeyemi</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#biography">Biography</a></li>
+                    <li><a href="index.html#reason">Reason for joining Altschool</a></li>
+                    <li><a href="index.html#goals">My goals in Altschool</a></li>
+             </ul>
+            </nav>
+    </header>
+    <hr />
+    <main>
+        <article id="information">
+            <h2>Application Form</h2>
+            <p>Fill in your details below:</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>personal information</legend>
+
+                    <p>
+                        <label for="firstName">First Name :</label>
+                        <input
+                        type="text"
+                        name="firstName"
+                        id="firstName"
+                        placeholder="promise"
+                         autofocus
+                        required />
+                    </p>
+
+                    <p>
+                        <label for="lastName">Last Name *</label>
+                        <input
+                        type="text"
+                        name="lastName"
+                        id="lastName"
+                          placeholder="Enter your lastName"
+                         required />
+                            
+                    </p>
+
+                    <p>
+                        <label for="email">Email *</label>
+                        <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter your Email"
+                        required />
+                    </p>
+
+                    <p>
+                        <label for="telephone">Phone Number *</label>
+                        <input
+                        type="tel"
+                        name="telephone"
+                        id="telephone"
+                        placeholder="Enter your Phone Number"
+                        required />
+                    </p>
+
+                    <p>
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" name="dob" id="dob" required />
+                    </p>
+                    </fieldset>
+                    <br />
+                    <br />
+
+                    <fieldset>
+                        <legend>What is Your Gender:</legend>
+                        <input type="radio" name="gender" id="female" />
+                        <label for="female">female</label>
+                        <input type="radio" name="gender" id="male" />
+                        <Label for="male">Male</Label>
+                    </fieldset>
+                    <br /><br />
+                    <fieldset>
+                        <legend>What is Your Educational Background:</legend>
+                        <input type="checkbox" name="education" id="undergraduate" />
+                        <label for="undergraduate">undergraduate</label>
+                        <input type="checkbox" name="education" id="graduate" />
+                        <Label for="graduate">graduate</Label>
+                        <input type="checkbox" name="education" id="postgraduate" />
+                        <Label for="postgraduate">postgraduate</Label>
+                    </fieldset>
+                    <br />
+                    <br />
+
+                    <fieldset>
+                        <legend>Area of Residence</legend>
+                        <p>
+                                <label for="country">country*</label>
+                                <select name="country" id="country">
+                                    <optgroup label="Africa">
+                                        <option value="NG">Nigeria</option>
+                                        <option value="KE">Kenya</option>
+                                        <option value="GH">Ghana</option>
+                                    </optgroup>
+                                    <optgroup label="Europe">
+                                        <option value="SC">Scotland</option>
+                                        <option value="SP">Spain</option>
+                                        <option value="IT">Italy</option>
+                                    </optgroup>
+                                    </select>
+                        </p>
+
+                        <p>
+                            <label for="state">State of Residence*</label>
+                            <input
+                            type="text"
+                            name="state"
+                            id="state"
+                            placeholder="Enter your state of residence"
+                            required />
+                        </p>
+                         </fieldset>
+                            <br />
+                            <br />
+                        <fieldset>
+                            <legend>Employment Status</legend>
+                            <p>
+                                <label for="Employment">Employment Status*</label>
+                                <select name="Employment" id="Employment">
+                                    <option>Employed</option>
+                                    <option>Unemployed</option>
+                                    <option>student</option>
+                                    <option>Self Employed</option>
+                                </select>
+                            </p>
+                            </fieldset>
+                            <br /><br />
+                            <fieldset>
+                                <legend>Altschool Application Inforrmation</legend>
+                                <p>
+                                    <label for="School">Choose a School*</label>
+                                    <select name="School" id="School">
+                                        <option disabled selected>Choose a school</option>
+                                        <option>School of Engineering</option>
+                                        <option>School of Product</option>
+                                        <option>School of Data</option>
+                                    </select>
+                                    </p>
+
+                                    <p>
+                                        <label for="Course">Choose a Course of study*</label>
+                                        <select name="Course" id="Course">
+                                            <option disabled selected>Choose a Course</option>
+                                            <optgroup label="SOE">
+                                            <option   value="FE">Front-End Engineering</option>
+                                            <option   value="BE">Back-End Engineering</option>
+                                            <option   value="CE">Cloud Engineering</option>
+                                            </optgroup>
+                                            <optgroup label="SOP">
+                                                <option   value="PD">Product Design</option>
+                                                <option   value="PM">Product Management</option>
+                                                <option   value="PK">Product Marketing</option>
+                                                </optgroup>
+                                                <optgroup label="SOD">
+                                                    <option   value="DA">Data Analysis</option>
+                                                    <option   value="DS">Data Scince</option>
+                                                      <option   value="DE">Data Engineering</option>
+                                                    </optgroup>
+                                                    <optgroup label="SOCE">
+                                                    <option   value="CC">Content Creation</option>
+                                                    <option   value="MB">Music Business</option>
+                                            </optgroup>
+                                        </select>
+                                        </p>
+                                        <p>
+                                            <label for="Source">How did you hear about us?*</label>
+                                            <select name="source" id="source">
+                                                <option disabled selected>select channel</option>
+                                                <option>X</option>
+                                                <option>Instagram</option>
+                                                <option>Facebook</option>
+                                                <option>friend</option>
+                                                <option>Youtube</option>
+                                                <option>Other</option>
+                                            </select>
+                                            </p>
+                                            <p>
+                                                <label for="scholarship"
+                                                >Scholarship/Discount code (optional)</label>
+                                                <input
+                                                type="text"
+                                                name="scholarshipCode"
+                                                id="scholarship"
+                                                placeholder="Enter your discount code" />"
+                                            </p>
+                                            </fieldset>
+                                            <p>
+                                                By clicking continue, I agree to <a href="#">Terms of use</a> and
+                                                acknowledge that I have read the <a href="#">privacy</a>
+                                            </p>
+                                            <p><button type="submit">proceed</button></p>
+            </form>
+</article>
+<p>Already have an account?<a href="#">sign in</a></p>
+</main>
+<hr />
+<footer>
+    <p>
+        shout out to my <strong><em>circle 112</em></strong>members as it ws a collective effort!
+        </p>
+        <p><a href="index.html">Back to home</a></p>
+            <p>
+                &lt; &lt; &lt; &nbsp; &copy;<a href="#">Fatuase Opeyemi</a> &nbsp; &gt; &gt; &gt;
+            </p>
+     </footer>
+    </body>
+</footer>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+                                                    
